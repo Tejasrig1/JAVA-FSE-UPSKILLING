@@ -1,0 +1,20 @@
+/* HEX Color */
+body {
+  background-color: #e3f2fd; /* Light Blue */
+}
+
+/* RGBA for transparency */
+p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Background Image with Fallback */
+body {
+  background: url('background.jpg') no-repeat center center fixed, #ccc;
+  background-size: cover;
+}
+
+/* Gradient for section headers */
+section {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
